@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right ,#b4bdff, #fed9ed,#e7bcde,#83a2ff);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.blog {
+    margin-top: 20px;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.blog img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.blog-content {
+    flex: 1;
+}
+
+h3 {
+    margin: 0 0 10px;
+    color: black;
+}
+
+p {
+    margin: 0 0 10px;
+    color: black;
+}
+
+.customer-name {
+    color: black;
+    font-style: italic;
+}
